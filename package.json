@@ -14,10 +14,14 @@
     "type": "git",
     "url": "git+https://github.com/DustinErwin/Team-Viewer.git"
   },
-  "author": "",
+  "author": "Dustin Erwin",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/DustinErwin/Team-Viewer/issues"
   },
-  "homepage": "https://github.com/DustinErwin/Team-Viewer#readme"
+  "homepage": "https://github.com/DustinErwin/Team-Viewer#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "inquirer": "^7.3.3"
+  }
 }
