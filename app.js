@@ -1,5 +1,5 @@
 const inquirer = require("inquirer");
-const open = require("open");
+
 const fs = require("fs");
 const Employee = require("./lib/Employee.js");
 
@@ -12,6 +12,4 @@ fs.readFile("./output/roster.json", "utf8", function (err, data) {
   console.log(data);
 });
 
-(async () => {
-  await open(`./index.html`, { app: "google chrome" });
-})();
+
